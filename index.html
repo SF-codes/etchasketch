@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="right">
+      <div class="grid-container"></div>
+    </div>
+    <div class="left">
+      <h1>ETCH-A-SKETCH</h1>
+      <label for="quantity" class="message"
+        >Input a number between 4 and 130</label
+      >
+      <input
+        type="number"
+        class="limit"
+        id="quantity"
+        name="quantity"
+        required
+        min="4"
+        max="130"
+      />
+      <button class="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
